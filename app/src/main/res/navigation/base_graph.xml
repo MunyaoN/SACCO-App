@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.polytechsacco.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/nav_loanfragment"
+            app:destination="@id/loanFragment" />
+        <action
+            android:id="@+id/Nav_Accountsfragment"
+            app:destination="@id/myAccountsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ministatement1Fragment"
+            app:destination="@id/ministatement1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loanFragment"
+        android:name="com.example.polytechsacco.LoanFragment"
+        android:label="fragment_loan"
+        tools:layout="@layout/fragment_loan" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/myAccountsFragment"
+        android:name="com.example.polytechsacco.MyAccountsFragment"
+        android:label="fragment_my_accounts"
+        tools:layout="@layout/fragment_my_accounts" />
+    <fragment
+        android:id="@+id/ministatement1Fragment"
+        android:name="com.example.polytechsacco.Ministatement1Fragment"
+        android:label="fragment_ministatement1"
+        tools:layout="@layout/fragment_ministatement1" />
+</navigation>

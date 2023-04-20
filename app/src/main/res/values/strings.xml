@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">POLYTECH SACCO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Deposit">Deposit</string>
+    <string name="Withdraw">Withdraw</string>
+    <string name="Loan_Limit">Loan Limit</string>
+    <string name="Account_Balance">Account Balance</string>
+    <string name="Buy_Airtime">Buy Airtime</string>
+    <string name="Loans">Loans</string>
+    <string name="Paybills">Pay Bills</string>
+    <string name="Ministatement">Mini Statement</string>
+    <string name="Internal_Funds_Transfer">Internal Funds Transfer</string>
+    <string name="Bank_Transfers">Bank Transfers</string>
+    <string name="LOANS"> YOUR LOANS:</string>
+    <string name="Loan_No">Loan No</string>
+    <string name="ApplDate">Application Date</string>
+    <string name="LoanName">Loan Product</string>
+    <string name="ApprvAmt">Approved Amount</string>
+    <string name="Install">Installments</string>
+    <string name="Interest">Interest</string>
+    <string name="DisbAmt">Disbursed Amount</string>
+    <string name="Outstanding">Outstanding Amount</string>
+    <string name="Type">Type</string>
+    <string name="Amount_Bal">Loan_Bal</string>
+    <string name="Your_Loans">My Loans:</string>
+    <string-array name="Select_Account_Dropdown">
+        <item>Deposit Contribution</item>
+        <item>Ordinary Saving</item>
+        <item>Share Capital</item>
+        <item>Education Contributions</item>
+        <item>Holiday Savings</item>
+        <item>Fixed Savings</item>
+        <item>Group Savings</item>
+        <item>Children Savings</item>
+        <item>Joint Savings</item>
+
+    </string-array>
+
+    <!-- TODO: Update Loan sources to: BOSA,FOSA and MOBILE -->
+    <string-array name="Select_Loan_Product">
+        <item>Normal Loan</item>
+        <item>School Fee Loan</item>
+        <item>Super Quick Loan</item>
+        <item>Development Loan</item>
+        <item>Super School Fee Loan</item>
+        <item>Emergency Loan</item>
+        <item>Quick Loan</item>
+        <item>Super Emergency Loan</item>
+        <item>Group Loan</item>
+
+    </string-array>
+
+</resources>

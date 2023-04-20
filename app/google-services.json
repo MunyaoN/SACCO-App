@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877434384735",
+    "project_id": "polytech-sacco",
+    "storage_bucket": "polytech-sacco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877434384735:android:547c9ff7cdee034f6f86ea",
+        "android_client_info": {
+          "package_name": "com.example.polytechsacco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877434384735-bca5e7ntlr1ona4kss04rk5hsrmo7it1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCDPRIaQ5gHtRjubg3n62a8gQP2m0cVJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877434384735-bca5e7ntlr1ona4kss04rk5hsrmo7it1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
